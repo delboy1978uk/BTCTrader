@@ -1,7 +1,5 @@
 #BTCTrader
 [![Build Status](https://travis-ci.org/delboy1978uk/BTCTrader.png?branch=master)](https://travis-ci.org/delboy1978uk/BTCTrader) [![Code Coverage](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/?branch=master) master<br />
-[![Build Status](https://travis-ci.org/delboy1978uk/BTCTrader.png?branch=dev-master)](https://travis-ci.org/delboy1978uk/BTCTrader) [![Code Coverage](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/badges/coverage.png?b=dev-master)](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/?branch=dev-master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/badges/quality-score.png?b=dev-master)](https://scrutinizer-ci.com/g/delboy1978uk/btctrader/?branch=dev-master) dev-master
-
 A Bitcoin trading platform for various exchanges written in PHP and Javascript.
 
 ##Requirements
