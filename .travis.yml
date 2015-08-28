@@ -24,13 +24,13 @@ install:
 
 before_script:
   - sudo chmod 777 /etc/hosts
-  - echo 127.0.0.1 bone > /etc/hosts
+  - echo 127.0.0.1 btctrader > /etc/hosts
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - sleep 5
   - java -jar selenium-server-standalone-2.42.2.jar -port 4444 &
   - "mysql -e 'create database codeception_test;'"
-  - nohup php -S bone:8000 public/index.php &
+  - nohup php -S btctrader:8000 public/index.php &
 script:
   - php vendor/bin/codecept run  --coverage-xml --env travis
 after_script:
