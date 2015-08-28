@@ -1,0 +1,22 @@
+{
+    "name": "delboy1978uk/btctrader",
+    "description": "BTCTrader - A Bitcoin trading platform for various exchanges written in PHP and Javascript",
+    "authors": [
+        {
+            "name": "Derek McLean",
+            "email": "delboy1978uk@gmail.com"
+        }
+    ],
+    "require": {
+	    "delboy1978uk/bone": "dev-master",
+	    "delboy1978uk/btcexchange": "dev-master"
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "src/"
+        }
+    }
+}
