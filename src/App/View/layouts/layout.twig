@@ -10,13 +10,16 @@
 
     <title>{% block title %}BTCTrader{% endblock %}</title>
 
-    {{ bscss }}
-    {{ uicss }}
-    {{ css }}
+    {{ bscss | raw}}
+    {{ uicss | raw}}
+    {{ css | raw}}
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/slider.css"/>
 
-    {{ jquery }}
-    {{ jqueryui }}
-    {{ bootstrap }}
+    {{ jquery | raw}}
+    {{ jqueryui | raw}}
+    {{ bootstrap | raw }}
+    <script type="text/javascript" src="js/slider.js" ></script>
 
 </head>
 
