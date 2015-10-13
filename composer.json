@@ -9,6 +9,7 @@
     ],
     "require": {
 	    "delboy1978uk/bone": "dev-master",
+	    "delboy1978uk/cdn": "1.*",
 	    "delboy1978uk/btc-exchange": "dev-master"
     },
     "require-dev": {
