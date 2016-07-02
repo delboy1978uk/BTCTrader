@@ -25,12 +25,12 @@ class IndexController extends Controller
 
     }
 
-    public function learnAction()
+    public function tradeAction()
     {
-
+        $this->view->exchange = $this->getParam('exchange');
     }
 
-    public function jsonAction()
+    public function getInfoAction()
     {
         // example of a Json page
         $this->disableLayout();

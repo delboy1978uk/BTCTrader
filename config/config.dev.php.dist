@@ -1,10 +1,34 @@
 <?php
 
-return array(
-    'db' => array(
-        'host' => '127.0.0.1',
-        'database' => '',
-        'user' => '',
-        'pass' => ''
-    ),
-);
+return [
+    'routes' => [
+        '/' => [
+            'controller' => 'index',
+            'action' => 'index',
+            'params' => [],
+        ],
+        '/trade/:exchange' => [
+            'controller' => 'index',
+            'action' => 'trade',
+            'params' => [],
+        ],
+    ],
+    'db' => [
+            'host' => '127.0.0.1',
+            'database' => '',
+            'user' => '',
+            'pass' => ''
+    ],
+    'templates' => [
+        'layout'
+    ],
+    'apis' => [
+        'btce' => [
+            'key' => '',
+            'secret' => '',
+        ],
+        'kraken' => [],
+        'bitstamp' => [],
+        'bitfinex' => [],
+    ]
+];
